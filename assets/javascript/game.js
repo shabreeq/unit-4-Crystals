@@ -7,6 +7,8 @@
 var computerChoice = document.getElementById("computer").innerHTML = Math.random();
   console.log(computerChoice);
 
-  var Wins =
-  var Losses =
-  var Score = 
+  var Wins = "userWins";
+  var Losses = "userLosses";
+  var Score = "totalScore";
+
+  
