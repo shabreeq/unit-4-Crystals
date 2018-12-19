@@ -11,4 +11,11 @@ var computerChoice = document.getElementById("randomNumber").innerHTML = Math.fl
   var Losses = "userLosses";
   var Score = "totalScore";
 
-var userChoice = document.getElementById("score")
+var userChoice = document.getElementById("score");
+
+  var crystal1 = "crystal1";
+  var crystal2 = "crystal2";
+  var crystal3 = "crystal3";
+  var crystal4 = "crystal4";
+
+<button onclick="crys1()">Click me</button>
