@@ -4,11 +4,11 @@
 
 // If your sum equals the computers random number you will, if not you lose.
 
-var computerChoice = document.getElementById("computer").innerHTML = Math.random();
+var computerChoice = document.getElementById("randomNumber").innerHTML = Math.floor((Math.random));
   console.log(computerChoice);
 
   var Wins = "userWins";
   var Losses = "userLosses";
   var Score = "totalScore";
 
-  
+var userChoice = document.getElementById("score")
