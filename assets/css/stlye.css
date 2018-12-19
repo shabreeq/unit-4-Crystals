@@ -5,3 +5,8 @@
   background-color: rgb(175, 175, 175);
   color: #ffffff;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+}

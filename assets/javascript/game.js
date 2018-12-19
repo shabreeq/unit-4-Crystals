@@ -4,7 +4,9 @@
 
 // If your sum equals the computers random number you will, if not you lose.
 
-var computerChoice = document.getElementById("randomNumber").innerHTML = Math.floor((Math.random));
+var computerChoice = Math.floor(Math.random() * 101 + 19);
+$("#randomNumber").text(computerChoice);
+
   console.log(computerChoice);
 
   var Wins = "userWins";
@@ -18,4 +20,4 @@ var userChoice = document.getElementById("score");
   var crystal3 = "crystal3";
   var crystal4 = "crystal4";
 
-<button onclick="crys1()">Click me</button>
+var arrayCrystals = ["../images/crystal 1.jpg","../images/crystal 2.jpg","../images/crystal 3.jpg","../images/crystal 4.jpg"];
